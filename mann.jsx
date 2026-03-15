@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
+// Mann - anonymous college vent board
 const FONTS = `@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;1,300;1,400&family=Outfit:wght@300;400;500&display=swap');`;
 
 const COLLEGES = [
