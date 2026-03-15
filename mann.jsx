@@ -337,7 +337,7 @@ export default function Mann() {
       const r = await fetch("https://api.anthropic.com/v1/messages", {
         method:"POST", headers:{
           "Content-Type":"application/json",
-          "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY,
+          "x-api-key": "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",
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true"
         },
